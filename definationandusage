@@ -1,0 +1,12 @@
+Usually, as a web developer, you need to set the UI as perfect as possible you can. Me, as a beginner, a friend told me about the tab index.
+it was really useful and helps to shrten the time.
+
+on your input method, just add tabindex="1" for the frist input type, the second is going to be 2 and so. 
+
+as known, mvc always has it's way to bring it to live, here's an example: 
+
+<label class="control-label">@Html.LabelFor(model => model.FirstName)</label>
+@Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", @maxlength = "50", tabIndex="1" })
+ 
+ 
+ 
