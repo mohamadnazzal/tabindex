@@ -7,6 +7,8 @@ as known, mvc always has it's way to bring it to live, here's an example:
 
 <label class="control-label">@Html.LabelFor(model => model.FirstName)</label>
 @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", @maxlength = "50", tabIndex="1" })
+
+beware to start from 1, not 0 :)
  
  
  
